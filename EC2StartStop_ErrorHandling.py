@@ -54,7 +54,7 @@ def EstablishConnection(instances):
         
         if(STATE == 'passed'):
             print("Connection is Established. Currently running state")
-            totalTime = (30 * (Num_of_retries + 1))/60
+            totalTime = (120 * (Num_of_retries + 1))/60
             print("It took approximately %s minutes." %totalTime)
             break
         else:
